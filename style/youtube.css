@@ -1,0 +1,52 @@
+/* Style the video container */
+video {
+    width: 95%;
+    height: auto;
+}
+
+/* Style the thumbnails */
+td img {
+    width: 90%;
+    height: auto;
+}
+
+td {
+    width: 5px;
+}
+
+/* Style the video titles */
+td p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+}
+
+/* Style the video upload info */
+td p:nth-child(2) {
+    font-size: 14px;
+    color: #666;
+}
+
+table {
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #ddd;
+}
